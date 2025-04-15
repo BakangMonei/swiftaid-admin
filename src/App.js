@@ -16,6 +16,7 @@ import Login from './pages/Login';
 import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 import { useAuth } from './contexts/AuthContext';
+import './App.css';
 
 function App() {
   const { currentUser } = useAuth();

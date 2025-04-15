@@ -9,6 +9,11 @@ const mapContainerStyle = {
   height: '400px',
 };
 
+const center = {
+  lat: -24.6541,
+  lng: 25.9087,
+};
+
 function AlertManagement() {
   const [alerts, setAlerts] = useState([]);
   const [filter, setFilter] = useState({
